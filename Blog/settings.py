@@ -127,3 +127,6 @@ LOGIN_REDIRECT_URL = 'blog-home'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_URL = 'login'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # directory where thr files will be saved
+MEDIA_URL = '/media/'
