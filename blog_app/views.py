@@ -59,7 +59,6 @@ class UserPostListView(ListView):
     model = Post
     template_name = 'blog_app/user_posts.html'
     context_object_name = 'posts' # default it is called object_list
-    ordering = ['-date_posted']
     paginate_by = 5
 
     def get_queryset(self):
